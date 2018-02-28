@@ -10,7 +10,7 @@ attr_accessor :total
     else 
     return total
   end
-
+end
   def add_item(title, price)
 
   end
