@@ -33,8 +33,8 @@ end
       @cart.each do |grocery|
       for qty in 1..grocery[:quantity]
       grocery << grocery[:name]
-end
-end
-item_names
-end
+    end
+    end
+    item_names
+  end
 end
