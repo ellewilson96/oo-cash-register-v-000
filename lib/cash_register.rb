@@ -28,5 +28,10 @@ end
 
 end
 
+    def items
+      item_names = []
+      @cart.each do |grocery|
+      for qty in 1..grocery[:quantity] 
+      grocery << grocery[:name]
 
 end
