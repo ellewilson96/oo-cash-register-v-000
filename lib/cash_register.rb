@@ -2,17 +2,20 @@ class CashRegister
 
 attr_accessor :total
 
-  def initialize(total)
+  def initialize(total, discount)
     @total = total
     @total = 0
+    if discount != nil
+      return total - discount
+    else 
     return total
   end
 
   def add_item(title, price)
-    self.total += 1
+
   end
 
-  def discount
+  def apply_discount
 
 
 
