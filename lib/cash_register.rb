@@ -37,4 +37,7 @@ end
     end
     item_names
   end
+  def void_last_transaction
+    self.chomp
+  end
 end
